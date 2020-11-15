@@ -2,6 +2,8 @@ import React from 'react';
 import './App.css';
 import MiComponente from './NuevosComponentes/MiComponente';
 import Validador from './NuevosComponentes/Validador';
+import './NuevosComponentes/Validador'
+
 
 function App() {
   return (
