@@ -12,8 +12,6 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-      <h1>Bienvenido</h1>
-      <h3>-- Este es un Validador de rut --</h3>
         <Validador valor = ""
         />
         <p>
