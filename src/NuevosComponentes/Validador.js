@@ -5,6 +5,7 @@ export default function Validador(params) {
     const [rutIngresado, setRutIngresado] = React.useState(params.valor);
 
     const [clave, setClave] = React.useState("");
+    
 
     
 
@@ -15,7 +16,7 @@ export default function Validador(params) {
         setClave(e.target.value);
     }
 
-     if(clave === "uvalpo") return <p>Maravilloso</p>
+     if(clave === "uvalpo") return <p>Perfecto</p>
 
      return  (<div>
         <input type="text" value={rutIngresado} onChange={change}  />

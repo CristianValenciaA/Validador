@@ -1,8 +1,10 @@
 import React from 'react';
 import './App.css';
+
+//import {Button} from "@material-ui/core"
 import MiComponente from './NuevosComponentes/MiComponente';
 import Validador from './NuevosComponentes/Validador';
-import './NuevosComponentes/Validador'
+
 
 
 function App() {
@@ -11,9 +13,10 @@ function App() {
       <header className="App-header">
         <p>
           Clave uvalpo
-        </p>
+        </p>       
         <Validador valor = "123344"
         />
+
         <MiComponente/>
       </header>
     </div>
