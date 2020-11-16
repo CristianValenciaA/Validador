@@ -7,8 +7,6 @@ export default function Validador(params) {
     const [clave, setClave] = React.useState("");
     
 
-    
-
     const change = (e)=>{
         setRutIngresado(e.target.value)
     }
@@ -16,10 +14,12 @@ export default function Validador(params) {
         setClave(e.target.value);
     }
 
-     if(clave === "uvalpo") return <p>Perfecto</p>
+     if(clave === "uvalpo") return <p><h3>¡¡Perfecto es un rut válido!!</h3> <img src= "https://3.bp.blogspot.com/-n5dX1cTbtSA/Wju4dnR3sGI/AAAAAAAALVU/sF1m9Y9VDFkrKai5itdyNDt4SXZ1_LHowCLcBGAs/w1200-h630-p-k-no-nu/objet%2Blogrado.jpg"/></p>
 
      return  (<div>
+
         <input type="text" value={rutIngresado} onChange={change}  />
+                 <p>Ingrese su rut sin puntos ni guion</p>
        { validate(rutIngresado) && 
            <input type="password"  value={clave} onChange={onChangePassword}  />
            

@@ -1,3 +1,4 @@
+import logo from './logo.svg';
 import React from 'react';
 import './App.css';
 
@@ -11,13 +12,15 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>
-          Clave uvalpo
-        </p>       
-        <Validador valor = "123344"
+      <h1>Bienvenido</h1>
+      <h3>-- Este es un Validador de rut --</h3>
+        <Validador valor = ""
         />
-
-        <MiComponente/>
+        <p>
+          Clave 'uvalpo'
+        </p>
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>Botón a modificar <MiComponente/></p>
       </header>
     </div>
   );
